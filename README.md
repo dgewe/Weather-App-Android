@@ -16,6 +16,7 @@ The application provides some of the basic functionality from a standard weather
 
 #### Features
 * Show weather info from the user's current and specified location
+* Change location
 * Weather info: Current, 24 hours, 7 days.
 * Localization support for Time and Date
 * Saving selected location
