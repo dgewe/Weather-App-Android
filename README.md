@@ -47,5 +47,5 @@ The application provides some of the basic functionality from a standard weather
   2. Edit the file [OpenWeatherAPI.kt](app/src/main/java/com/fredrikbogg/weatherapp/utils/OpenWeatherAPI.kt)
 
 #### Google Places
- 1. Sign up and retrieve a 'Places API' key from  https://cloud.google.com/maps-platform/
+ 1. Sign up and retrieve a 'Places API' key using their console from  https://cloud.google.com/maps-platform/
  2. Edit the file [GooglePlacesAPI.kt](app/src/main/java/com/fredrikbogg/weatherapp/utils/GooglePlacesAPI.kt)
