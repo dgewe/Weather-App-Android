@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/hourlyTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        tools:text="Now" />
+
+    <ImageView
+        android:id="@+id/hourlyTemperatureImageView"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/weather_type_icon"
+        app:srcCompat="@drawable/sun_4x"
+        tools:src="@drawable/sun_4x" />
+
+    <TextView
+        android:id="@+id/hourlyTemperatureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        tools:text="14" />
+
+</LinearLayout>

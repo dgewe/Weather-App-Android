@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/dailyDayTextView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        tools:text="Wednesday" />
+
+    <ImageView
+        android:id="@+id/dailyTemperatureImageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".2"
+        android:contentDescription="@string/weather_type_icon"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/sun_4x" />
+
+    <TextView
+        android:id="@+id/dailyMaxTempTextView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        tools:text="14" />
+
+    <TextView
+        android:id="@+id/dailyMinTempTextView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/nunito_light"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        tools:text="8" />
+</LinearLayout>

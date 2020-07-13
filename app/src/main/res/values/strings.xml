@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="weather_type_icon">weather type icon</string>
+    <string name="update_weather_button">update weather button</string>
+    <string name="slash">/</string>
+    <string name="change_location_button">change location button</string>
+</resources>
