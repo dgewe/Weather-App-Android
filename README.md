@@ -2,7 +2,7 @@
 [Code Shortcut](app/src/main/java/com/fredrikbogg/weatherapp)
 
 ## Description
-This is a demo application built with the goal to learn about networking and how to work with location data.
+This is a demo application built with the goal to learn about basic networking and how to work with location data.
 
 The application provides some of the basic functionality from a standard weather app.
 
