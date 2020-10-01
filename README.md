@@ -22,18 +22,12 @@ The application provides some of the basic functionality from a standard weather
 * Saving selected location
 
 ## Screenshots
-<table>
-<thead>
-<tr>
-<th align="center">Main Activity</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> <img src="github_images/main_activity.png" width = "270px" height = "585px"></td>
-</tr>
-</tbody>
-</table>
+
+### Main
+
+<p align = "left" >
+  <img width="270" height="585" src="github_images/main_activity.png">
+</p>
 
 ## Setup
 #### Requirements
